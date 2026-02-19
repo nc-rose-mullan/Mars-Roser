@@ -1,8 +1,10 @@
-﻿using System;
-
-public class Class1
+﻿namespace MarsRoverProject.NewFolder
 {
-	public Class1()
-	{
+	public class PlateauSize()
+		{
+		public int width { get; private set; }
+		public int height { get; private set; }
+
+
 	}
 }

@@ -1,21 +1,18 @@
-﻿namespace Direction
+﻿namespace MarsRoverProject
+{
+    public enum Instruction
     {
-    internal class Directions
-        {
-        enum InstructionType
-            {
-            L,
-            R,
-            M
-            }
-        enum DirectionType
-            { 
-            N,
-            E,
-            S,
-            W
-            }
-        }
-
-        
+        L,
+        R,
+        M
     }
+    public enum CompassDirection
+    {
+        N,
+        E,
+        S,
+        W
+    }
+}
+
+

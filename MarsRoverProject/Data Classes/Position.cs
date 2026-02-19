@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Directions;
 
-namespace MarsRoverProject
-    {
-    internal class Position
+namespace MarsRoverProject.NewFolder
+    { 
+    class Position
         {
+        public int x_position { get; private set; }
+        public int y_position { get; private set; }
+        public CompassDirection CompassDirection { get; private set; }
         }
     }
